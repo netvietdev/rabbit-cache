@@ -47,11 +47,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Rabbit.SerializationMaster, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Rabbit.SerializationMaster.4.0.0\lib\Rabbit.SerializationMaster.dll</HintPath>
+      <HintPath>..\Cache\packages\Rabbit.SerializationMaster.4.0.0\lib\Rabbit.SerializationMaster.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StackExchange.Redis, Version=1.0.316.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StackExchange.Redis.1.0.481\lib\net45\StackExchange.Redis.dll</HintPath>
+      <HintPath>..\Cache\packages\StackExchange.Redis.1.0.481\lib\net45\StackExchange.Redis.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

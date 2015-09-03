@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>Rabbit.Cache.Redis</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <title>Rabbit.Cache.Redis</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
     <description>
-      A long description of the package. This shows up in the right pane of the Add Package Dialog as well as in the Package Manager Console when listing packages using the Get-Package command.
+      Version 1.0.2
     </description>
     <releaseNotes>
     </releaseNotes>
@@ -15,16 +15,16 @@
       A short description of the package. If specified, this shows up in the middle pane of the Add Package Dialog. If not specified, a truncated version of the description is used instead.
     </summary>
     <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/NuGet.Rabbit.Cache.Redis</projectUrl>
+    <projectUrl>https://nuget.org/packages/Rabbit.Cache.Redis</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright @ RabbitSoftware 2015</copyright>
     <dependencies>
-        <group targetFramework="net45">
-          <dependency id="Rabbit.Cache" version="1.0.0" />
-          <dependency id="Rabbit.Integrations.Redis" version="1.1.0" />
-        </group>
+      <group targetFramework="net45">
+        <dependency id="Rabbit.Cache" version="1.0.1" />
+        <dependency id="Rabbit.Integrations.Redis" version="1.1.0" />
+      </group>
     </dependencies>
     <references></references>
     <tags></tags>
