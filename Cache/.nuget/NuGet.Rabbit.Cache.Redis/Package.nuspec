@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Rabbit.Cache.Redis</id>
-    <version>1.0.3.1</version>
+    <version>1.1.0</version>
     <title>Rabbit.Cache.Redis</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
@@ -10,9 +10,10 @@
       An implementation of Rabbit.Cache for Redis NoSQL
     </description>
     <releaseNotes>
+      Version 1.1.0
+      - Add RedisLabsRedisCacheFactory implementation
     </releaseNotes>
     <summary>
-      A short description of the package. If specified, this shows up in the middle pane of the Add Package Dialog. If not specified, a truncated version of the description is used instead.
     </summary>
     <language>en-US</language>
     <projectUrl>https://nuget.org/packages/Rabbit.Cache.Redis</projectUrl>
@@ -22,7 +23,7 @@
     <copyright>Copyright @ RabbitSoftware 2015</copyright>
     <dependencies>
       <group targetFramework="net45">
-        <dependency id="Rabbit.Cache" version="1.0.2" />
+        <dependency id="Rabbit.Cache" version="1.1.0" />
         <dependency id="Rabbit.Integrations.Redis" version="1.1.2" />
       </group>
     </dependencies>

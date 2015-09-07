@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Rabbit.Cache</id>
-    <version>1.0.2.1</version>
+    <version>1.1.0</version>
     <title>Rabbit.Cache</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
@@ -10,7 +10,9 @@
       Provide Cache service for any type of application. Having a default implementation to wrap the MemoryCache.
     </description>
     <releaseNotes>
-      Version 1.0.2
+      Version 1.1.0
+      - Add ICacheFactory interface
+      - Add InMemoryCacheFactory
     </releaseNotes>
     <summary>
     </summary>
