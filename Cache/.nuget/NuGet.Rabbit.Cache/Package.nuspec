@@ -2,14 +2,15 @@
 <package >
   <metadata>
     <id>Rabbit.Cache</id>
-    <version>1.0.2</version>
+    <version>1.0.2.1</version>
     <title>Rabbit.Cache</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
     <description>
-      Version 1.0.0
+      Provide Cache service for any type of application. Having a default implementation to wrap the MemoryCache.
     </description>
     <releaseNotes>
+      Version 1.0.2
     </releaseNotes>
     <summary>
     </summary>
@@ -24,7 +25,7 @@
       </group>
     </dependencies>
     <references></references>
-    <tags></tags>
+    <tags>MemoryCache Cache RabbitSoftware</tags>
   </metadata>
   <files>
     <file src="lib\" target="lib" />

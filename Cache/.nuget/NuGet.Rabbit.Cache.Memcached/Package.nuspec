@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Rabbit.Cache.Redis</id>
-    <version>1.0.3.1</version>
-    <title>Rabbit.Cache.Redis</title>
+    <id>Rabbit.Cache.Memcached</id>
+    <version>1.0.0</version>
+    <title>Rabbit.Cache.Memcached</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
     <description>
-      An implementation of Rabbit.Cache for Redis NoSQL
+      Memcached caching service.
+      For configuration https://github.com/enyim/EnyimMemcached/wiki/MemcachedClient-Configuration
     </description>
     <releaseNotes>
+      Version 1.0.0
     </releaseNotes>
     <summary>
-      A short description of the package. If specified, this shows up in the middle pane of the Add Package Dialog. If not specified, a truncated version of the description is used instead.
     </summary>
     <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/Rabbit.Cache.Redis</projectUrl>
+    <projectUrl>https://nuget.org/packages/Rabbit.Cache.Memcached</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright @ RabbitSoftware 2015</copyright>
     <dependencies>
-      <group targetFramework="net45">
-        <dependency id="Rabbit.Cache" version="1.0.2" />
-        <dependency id="Rabbit.Integrations.Redis" version="1.1.2" />
-      </group>
+        <group targetFramework="net45">
+          <dependency id="EnyimMemcached" version="2.13" />
+        </group>
     </dependencies>
     <references></references>
-    <tags>Redis Cache RabbitSoftware</tags>
+    <tags>Memcached Cache RabbitSoftware</tags>
   </metadata>
   <files>
     <file src="lib\" target="lib" />
