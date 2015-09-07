@@ -47,15 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Rabbit.Integrations.Redis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Cache\packages\Rabbit.Integrations.Redis.1.1.2\lib\Rabbit.Integrations.Redis.dll</HintPath>
+      <HintPath>..\packages\Rabbit.Integrations.Redis.1.1.2.1\lib\Rabbit.Integrations.Redis.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rabbit.SerializationMaster, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Cache\packages\Rabbit.SerializationMaster.4.0.0\lib\Rabbit.SerializationMaster.dll</HintPath>
+      <HintPath>..\packages\Rabbit.SerializationMaster.4.0.0\lib\Rabbit.SerializationMaster.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StackExchange.Redis, Version=1.0.316.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Cache\packages\StackExchange.Redis.1.0.481\lib\net45\StackExchange.Redis.dll</HintPath>
+      <HintPath>..\packages\StackExchange.Redis.1.0.481\lib\net45\StackExchange.Redis.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Cache", "..\Rabbit.Cache\Rabbit.Cache.csproj", "{9A3A8BB4-327D-4B9B-A27C-D931EC374BCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Cache", "Rabbit.Cache\Rabbit.Cache.csproj", "{9A3A8BB4-327D-4B9B-A27C-D931EC374BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Cache.Redis", "..\Rabbit.Cache.Redis\Rabbit.Cache.Redis.csproj", "{CE4468CD-EF4B-4B03-B840-C4BEEE9DE7FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Cache.Redis", "Rabbit.Cache.Redis\Rabbit.Cache.Redis.csproj", "{CE4468CD-EF4B-4B03-B840-C4BEEE9DE7FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4A3085B8-1367-4E11-A27B-B11DB8D68B94}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Rabbit.Cache.Redis", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Rabbit.Cache.Memcached", ".nuget\NuGet.Rabbit.Cache.Memcached\NuGet.Rabbit.Cache.Memcached.csproj", "{553F6D37-75E4-4323-85AB-1AAED10C0385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Cache.Memcached", "..\Rabbit.Cache.Memcached\Rabbit.Cache.Memcached.csproj", "{5E617676-C940-4D11-8E2C-C68A23D80F18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Cache.Memcached", "Rabbit.Cache.Memcached\Rabbit.Cache.Memcached.csproj", "{5E617676-C940-4D11-8E2C-C68A23D80F18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
