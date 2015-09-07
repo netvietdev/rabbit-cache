@@ -15,6 +15,11 @@ namespace Rabbit.Cache.Redis
 
         public T Get<T>(string key) where T : class
         {
+            if (typeof(T) == typeof(string))
+            {
+                return _database.Get(key) as T;
+            }
+
             return _database.Get<T>(key);
         }
 

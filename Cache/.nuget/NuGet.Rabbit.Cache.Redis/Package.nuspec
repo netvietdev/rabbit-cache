@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Rabbit.Cache.Redis</id>
-    <version>1.0.2.1</version>
+    <version>1.0.3</version>
     <title>Rabbit.Cache.Redis</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
@@ -22,8 +22,8 @@
     <copyright>Copyright @ RabbitSoftware 2015</copyright>
     <dependencies>
       <group targetFramework="net45">
-        <dependency id="Rabbit.Cache" version="1.0.1" />
-        <dependency id="Rabbit.Integrations.Redis" version="1.1.1" />
+        <dependency id="Rabbit.Cache" version="1.0.2" />
+        <dependency id="Rabbit.Integrations.Redis" version="1.1.2" />
       </group>
     </dependencies>
     <references></references>

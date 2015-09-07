@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Rabbit.Integrations.Redis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Cache\packages\Rabbit.Integrations.Redis.1.1.0\lib\Rabbit.Integrations.Redis.dll</HintPath>
+      <HintPath>..\Cache\packages\Rabbit.Integrations.Redis.1.1.2\lib\Rabbit.Integrations.Redis.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rabbit.SerializationMaster, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
