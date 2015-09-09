@@ -6,6 +6,9 @@ using System.Net;
 
 namespace Rabbit.Cache.Memcached
 {
+    /// <summary>
+    /// Create a MemcachedCache instance from RedisLabs
+    /// </summary>
     public class RedisLabsMemcachedCacheFactory : ICacheFactory
     {
         private static MemcachedClient _memcachedClient;

@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace Rabbit.Cache.Redis
 {
+    /// <summary>
+    /// Create RedisCache instance from RedisLabs
+    /// </summary>
     public class RedisLabsRedisCacheFactory : ICacheFactory
     {
         private static ConnectionMultiplexer _connection;
