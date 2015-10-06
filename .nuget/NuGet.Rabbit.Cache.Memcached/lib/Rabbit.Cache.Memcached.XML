@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rabbit.Cache.Memcached</name>
+    </assembly>
+    <members>
+        <member name="M:Rabbit.Cache.Memcached.MemcachedCache.#ctor">
+            <summary>
+            Initialize the cache which uses default configuration of Memcached
+            </summary>
+        </member>
+        <member name="T:Rabbit.Cache.Memcached.RedisLabsMemcachedCacheFactory">
+            <summary>
+            Create a MemcachedCache instance from RedisLabs
+            </summary>
+        </member>
+        <member name="M:Rabbit.Cache.Memcached.RedisLabsMemcachedCacheFactory.Create(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Create a MemcachedCache instance
+            </summary>
+            <param name="options">
+            The dictionary must contain below keys
+            1. hostName
+            2. port
+            3. userName
+            4. password
+            Optional keys
+            1. zone
+            </param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rabbit.Cache.Redis</name>
+    </assembly>
+    <members>
+        <member name="T:Rabbit.Cache.Redis.RedisLabsRedisCacheFactory">
+            <summary>
+            Create RedisCache instance from RedisLabs
+            </summary>
+        </member>
+        <member name="M:Rabbit.Cache.Redis.RedisLabsRedisCacheFactory.Create(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Create a MemcachedCache instance
+            </summary>
+            <param name="options">
+            The dictionary must contain below keys
+            1. endPoint
+            2. password
+            </param>
+        </member>
+    </members>
+</doc>

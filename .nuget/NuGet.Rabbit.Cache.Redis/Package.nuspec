@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Rabbit.Cache.Redis</id>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <title>Rabbit.Cache.Redis</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
@@ -10,6 +10,9 @@
       An implementation of Rabbit.Cache for Redis NoSQL
     </description>
     <releaseNotes>
+      Version 1.1.1
+      - Use signed Rabbit.Cache
+      
       Version 1.1.0
       - Add RedisLabsRedisCacheFactory implementation
     </releaseNotes>

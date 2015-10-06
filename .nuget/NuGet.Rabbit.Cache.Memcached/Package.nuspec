@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Rabbit.Cache.Memcached</id>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <title>Rabbit.Cache.Memcached</title>
     <authors>RabbitSoftware</authors>
     <owners>juniho</owners>
@@ -11,6 +11,9 @@
       For configuration https://github.com/enyim/EnyimMemcached/wiki/MemcachedClient-Configuration
     </description>
     <releaseNotes>
+      Version 1.1.1
+      - Use signed Rabbit.Cache
+
       Version 1.1.0
       - Add RedisLabsMemcachedCacheFactory implementation
     </releaseNotes>

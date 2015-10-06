@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="lib\Rabbit.Cache.Redis.dll" />
     <Content Include="lib\Rabbit.Cache.Redis.pdb" />
+    <Content Include="lib\Rabbit.Cache.Redis.XML" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Rabbit.Integrations.Redis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

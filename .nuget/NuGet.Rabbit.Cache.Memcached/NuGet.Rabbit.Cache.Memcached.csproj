@@ -53,7 +53,9 @@
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />
     <None Include="NuGet.config" />
-    <None Include="Package.nuspec" />
+    <None Include="Package.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="tools\init.ps1" />
     <None Include="tools\install.ps1" />
     <None Include="tools\uninstall.ps1" />
@@ -65,6 +67,7 @@
   <ItemGroup>
     <Content Include="lib\Rabbit.Cache.Memcached.dll" />
     <Content Include="lib\Rabbit.Cache.Memcached.pdb" />
+    <Content Include="lib\Rabbit.Cache.Memcached.XML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
