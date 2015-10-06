@@ -3,15 +3,24 @@ using System.Runtime.Caching;
 
 namespace Rabbit.Cache.Impl
 {
+    /// <summary>
+    /// Wrapper class around MemoryCache
+    /// </summary>
     public class InMemoryCache : ICache
     {
         private readonly MemoryCache _cacheInstance;
 
+        /// <summary>
+        /// Instantiate new instance using MemoryCache.Default
+        /// </summary>
         public InMemoryCache()
             : this(MemoryCache.Default)
         {
         }
 
+        /// <summary>
+        /// Instantiate new instance with a custom MemoryCache
+        /// </summary>
         public InMemoryCache(MemoryCache cacheInstance)
         {
             _cacheInstance = cacheInstance;
