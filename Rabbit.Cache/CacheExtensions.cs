@@ -2,6 +2,9 @@
 
 namespace Rabbit.Cache
 {
+    /// <summary>
+    /// Provide extension methods for ICache instances
+    /// </summary>
     public static class CacheExtensions
     {
         /// <summary>

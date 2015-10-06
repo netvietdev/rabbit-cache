@@ -65,6 +65,7 @@
   <ItemGroup>
     <Content Include="lib\Rabbit.Cache.dll" />
     <Content Include="lib\Rabbit.Cache.pdb" />
+    <Content Include="lib\Rabbit.Cache.XML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
